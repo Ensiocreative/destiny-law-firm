@@ -1,0 +1,51 @@
+/*** 
+
+====================================================================
+	Portfolio Page Section
+====================================================================
+
+***/
+
+.portfolio-page-section{
+	position:relative;
+	padding:80px 0px 80px;
+	background-color:#ffffff;
+}
+
+.portfolio-page-section .outer-container{
+	padding:0px 70px;
+}
+
+.portfolio-page-section .filters{
+	position:relative;
+	margin-bottom:60px;
+}
+
+.portfolio-page-section .filters .filter-tabs{
+	position:relative;
+}
+
+.portfolio-page-section .filters li{
+	position: relative;
+    color: #0e1e43;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+	margin:0px 14px 5px;
+	display:inline-block;
+	text-transform:capitalize;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+
+.portfolio-page-section .filters .filter.active,
+.portfolio-page-section .filters .filter:hover{
+    color:#f5b954;
+	text-decoration:underline;
+}
+
+.gallery-item.mix{
+	display:none;
+}
